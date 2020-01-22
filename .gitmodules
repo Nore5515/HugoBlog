@@ -1,6 +1,6 @@
-[submodule "public"]	
-	path = public	
-	url = git@github.com:Nore5515/Nore5515.github.io.git	
+[submodule "public"]
+	path = public
+	url = git@github.com:Nore5515/Nore5515.github.io.git
 	branch = master
 [submodule "themes/papercss-hugo-theme"]
 	path = themes/papercss-hugo-theme

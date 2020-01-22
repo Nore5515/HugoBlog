@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:Nore5515/Nore5515.github.io.git
 	branch = master
+[submodule "themes/papercss-hugo-theme"]
+	path = themes/papercss-hugo-theme
+	url = https://github.com/zwbetz-gh/papercss-hugo-theme.git

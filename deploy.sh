@@ -38,4 +38,4 @@ git commit -m "$msg"
 git pull -r
 
 # send it away
-git push origin master
+git push

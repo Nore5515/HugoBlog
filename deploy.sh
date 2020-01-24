@@ -29,7 +29,7 @@ git push origin master
 
 cp -a ./public/ ../Nore5515.github.io/
 
-cd ../Nore5515.github.io
+cd ../Nore5515.github.io/Nore5515.github.io/
 
 git add .
 

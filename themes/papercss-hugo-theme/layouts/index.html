@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ .Content }}
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $pages.ByPublishDate.Reverse }}
+  <h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
+    <a href="{{ .Permalink }}">
+      <ul>
+          <font size="5">Starting Out<a href="page2.html"></a></font>
+      </ul>
+
+    </a>
+  </h2>
+{{ end }}
+{{ end }}

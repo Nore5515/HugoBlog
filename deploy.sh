@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # If a command fails then the deploy stops
-set -e
+set -ex
 
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then

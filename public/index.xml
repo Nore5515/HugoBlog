@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Noah&#39;s Blog</title>
-    <link>http://example.org/</link>
+    <link>https://Nore5515.github.io/</link>
     <description>Recent content on Noah&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Nore5515.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://Nore5515.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://Nore5515.github.io/posts/my-first-post/</guid>
       <description>Starting Out 23/01/20
 Well, after a long week and a half, I finally have this blog up and running. Hopefully. I&#39;m not entirely sure if this will work, but I&#39;m remaining optimistic, as I have for the past 10 days or so.
 This blog is hosted by Github Pages, and through using them I realized I had forgotten practically everything I had ever known about git. It took me almost an entire day, but I relearned some git commands, including, but not limited to:</description>

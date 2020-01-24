@@ -3,20 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://Nore5515.github.io/posts/my-first-post/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://Nore5515.github.io/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://Nore5515.github.io/</loc>
+    <lastmod>2020-01-24T09:00:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://Nore5515.github.io/posts/</loc>
+    <lastmod>2020-01-24T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Nore5515.github.io/posts/my-first-post/</loc>
+    <lastmod>2020-01-24T09:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Nore5515.github.io/categories/</loc>
   </url>
   
   <url>

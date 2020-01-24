@@ -2,3 +2,9 @@ baseURL = "https://Nore5515.github.io/"
 languageCode = "en-us"
 title = "Noah's Blog"
 theme = "papercss-hugo-theme"
+features = ["blog", "toc", "shortcodes", "footer"]
+
+[params]
+  copyrighthtml = "Copyright &#xA9; 2020 Noah Reed. All Rights Reserved."
+  sidebarrecentlimit = 5
+  twitteruser = "Nore5515"

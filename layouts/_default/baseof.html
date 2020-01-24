@@ -7,8 +7,10 @@
       {{ partial "nav.html" . }}
       <main>
         {{ block "main" . }}{{ end }}
+        {{ partial "footer.html" . }}
       </main>
       {{ partial "google-analytics-async.html" . }}
   </div>
+
   </body>
 </html>

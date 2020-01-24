@@ -1,5 +1,10 @@
-Starting Out
-======
+---
+title: "Starting Out"
+date: 2020-01-24T09:00:00-06:00
+draft: False
+summary: "Gotta start somewhere."
+---
+
 
 23/01/20
 

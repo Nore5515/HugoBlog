@@ -1,0 +1,7 @@
+
+{{ with .Site.Params.twitteruser }}
+    <div>
+        <a href="https://twitter.com/{{.}}" rel="author">
+        <img src="/images/twitter.png" width="48" height="48" title="Twitter: {{.}}" alt="Twitter"></a>
+    </div>
+{{ end }}

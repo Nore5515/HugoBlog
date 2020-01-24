@@ -10,6 +10,9 @@ fi
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+# Build the project.
+hugo -t papercss-hugo-theme # if using a theme, replace with `hugo -t <YOURTHEME>`
+
 # Add changes to git.
 git add .
 
@@ -19,23 +22,20 @@ git commit -m "$msg"
 # pull to be fresh:
 git pull -r
 
-cd public
+# send it away
+git push origin master
+
+# cd public
+
+cp -a ./public/ ../Nore5515.github.io/
+
+cd ../Nore5515.github.io
+
+git add .
+
+git commit -m "$msg"
 
 git pull -r
 
-cd ..
-
-# Build the project.
-hugo -t ananke # if using a theme, replace with `hugo -t <YOURTHEME>`
-
-# Go To Public folder
-cd public
-
-# Add changes to git.
-git add .
-
-# Commit changes.
-git commit -m "$msg"
-
-# Push source and build repos.
+# send it away
 git push origin master
